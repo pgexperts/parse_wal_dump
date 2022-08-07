@@ -22,3 +22,15 @@ creates it; the schema is:
 
 The main purpose of this script is to analyze WAL information to get an idea of 
 how much changes to particular relations are contributing to the WAL volume.
+
+## Requirements
+
+It requires the `psycopg2` Python PostgreSQL interface library, available from:
+
+    https://www.psycopg.org
+    
+It can be installed using `pip`:
+
+    pip install psycopg2
+    
+It has been tested on Python 3.8.
